@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 包含所有类路径的配置信息 -->
+<classpath>
+	<!-- 源代码位于目录src下 -->
+	<classpathentry kind="src" path="src"/>
+	<!-- 第三方库的路径 -->
+		<!-- 用于日志记录 -->
+		<classpathentry kind="lib" path="lib/log4j-1.2.14.jar"/>
+		<!-- 用于连接数据库 -->
+		<classpathentry kind="lib" path="lib/mysql-connector-java-5.1.44.jar"/>
+		<classpathentry kind="lib" path="lib/sqljdbc4-2.0.jar"/>
+	<!-- 使用java 8运行 -->
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<!-- 编译后类文件的存放目录 -->
+	<classpathentry kind="output" path="bin"/>
+</classpath>
